@@ -5,7 +5,7 @@
 __author__ = "Gareth Murphy"
 
 
-class BaseMetabolicRate:
+class BasalMetabolicRate:
     weight = 85
     height = 172
     age = 37
@@ -24,6 +24,6 @@ class BaseMetabolicRate:
 
 
 if __name__ == '__main__':
-    bmr = BaseMetabolicRate()
+    bmr = BasalMetabolicRate()
     bmr.show()
     print (bmr.katchmacardle())
