@@ -6,9 +6,9 @@ __author__ = "Gareth Murphy"
 
 
 class BasalMetabolicRate:
-    weight = 85
-    height = 172
-    age = 37
+    weight = 75
+    height = 150
+    age = 20
     totalheat = 1745
     leanbodyweight = 0.79 * weight
 
